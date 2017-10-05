@@ -1,10 +1,3 @@
-# SecureStorage
-
-	installation from gitlab
-		
-		npm install git+ssh://gitlab@gitlab.geniem.com:react-native-modules/react-native-secure-storage.git --save
-
-
 Usage
 -----
 	This module can be used to store and encrypt Strings as "key, value"-pairs to platform specific storages.
