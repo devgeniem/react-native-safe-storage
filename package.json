@@ -1,0 +1,21 @@
+{
+  "name": "react-native-safe-storage",
+  "version": "0.0.1",
+  "description": "wrapper for native secure storages for Android and iOS",
+  "main": "SecureStorage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitlab@gitlab.geniem.com:react-native-modules/react-native-secure-storage.git"
+  },
+  "keywords": [
+    "react-native",
+    "secure-storage",
+    "keystore",
+    "keychain"
+  ],
+  "author": "Geniem Oy",
+  "license": "MIT"
+}

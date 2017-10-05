@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "930A91FCEEBFC264711E20C86A3B4D734F2586CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5064471BD79E989139F73A6A9845B9BEE9CF4FF1" : 0,
+    "930A91FCEEBFC264711E20C86A3B4D734F2586CB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C9A3D6A-E401-410C-B0CB-78481DBD0215",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5064471BD79E989139F73A6A9845B9BEE9CF4FF1" : "..\/..",
+    "930A91FCEEBFC264711E20C86A3B4D734F2586CB" : "react-native-secure-storage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTSecureStorage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RCTSecureStorage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.geniem.com:rollock-espotel\/rollock-espotel-react-native.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5064471BD79E989139F73A6A9845B9BEE9CF4FF1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.geniem.com:react-native-modules\/react-native-secure-storage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "930A91FCEEBFC264711E20C86A3B4D734F2586CB"
+    }
+  ]
+}
