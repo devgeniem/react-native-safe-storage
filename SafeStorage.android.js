@@ -1,6 +1,6 @@
 import React from 'react-native';
 
-const SecureStorage = React.NativeModules.SecureStorage;
+const SecureStorage = React.NativeModules.SafeStorage;
 
 export default {
 	setEntry: (key, value) => {
