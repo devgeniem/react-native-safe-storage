@@ -1,21 +1,49 @@
 {
-  "name": "react-native-safe-storage",
-  "version": "0.0.1",
-  "description": "wrapper for native secure storages for Android and iOS",
-  "main": "SecureStorage.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-safe-storage",
+  "_id": "react-native-safe-storage@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Fc3eVe/6OMzd12pOMwyyHpBKTi/T03PX63fPxeVSzohidvzju/uSciY3abTBc8m+6/Rwj/pQ1RYpyiUzPISVlA==",
+  "_location": "/react-native-safe-storage",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-safe-storage",
+    "name": "react-native-safe-storage",
+    "escapedName": "react-native-safe-storage",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "gitlab@gitlab.geniem.com:react-native-modules/react-native-secure-storage.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-safe-storage/-/react-native-safe-storage-0.0.1.tgz",
+  "_shasum": "5f3d510bb3d8b655f4cfb86a9e35ac264c99bdcf",
+  "_spec": "react-native-safe-storage",
+  "_where": "/Users/mika/workspace/flamma",
+  "author": {
+    "name": "Geniem Oy"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "wrapper for native safe storages for Android and iOS",
   "keywords": [
     "react-native",
-    "secure-storage",
+    "safe-storage",
     "keystore",
     "keychain"
   ],
-  "author": "Geniem Oy",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "SafeStorage.js",
+  "name": "react-native-safe-storage",
+  "repository": {
+    "type": "git",
+    "url": "gitlab@gitlab.geniem.com:react-native-modules/react-native-safe-storage.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }

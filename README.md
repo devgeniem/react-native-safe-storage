@@ -2,23 +2,23 @@ Usage
 -----
 	This module can be used to store and encrypt Strings as "key, value"-pairs to platform specific storages.
 
-	- import SecureStore module: 
-		import secureStorage from 'react-native-secure-storage/SecureStorage';
+	- import SafeStore module: 
+		import safeStorage from 'react-native-safe-storage/SafeStorage';
 
 	- encrypt:
-		SecureStorage.setEntry(key, value);
+		SafeStorage.setEntry(key, value);
 
 	- decrypt:
-		SecureStorage.getEntry(key, defaultValue, callback);
+		SafeStorage.getEntry(key, defaultValue, callback);
 
 		e.g.
-		secureStorage.getEntry("someKey", "default value", (s) => {alert(s);});
+		safeStorage.getEntry("someKey", "default value", (s) => {alert(s);});
 
 	- Asynchronous decrypt:
-		await SecureStorage.getEntryAsync(key, defaultValue);
+		await SafeStorage.getEntryAsync(key, defaultValue);
 
 		e.g.
-		await secureStorage.getEntryAsync("someKey", "default value");
+		await safeStorage.getEntryAsync("someKey", "default value");
 
 	- decrypt method returns the default value if the key specified is not found
 

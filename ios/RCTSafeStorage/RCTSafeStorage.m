@@ -1,10 +1,10 @@
-#import "RCTSecureStorage.h"
+#import "RCTSafeStorage.h"
 #import <Security/Security.h>
 #import "RCTConvert.h"
 #import "RCTBridge.h"
 #import "RCTUtils.h"
 
-@implementation SecureStorage
+@implementation SafeStorage
 
 RCT_EXPORT_MODULE();
 
@@ -25,7 +25,7 @@ RCT_EXPORT_METHOD(setEntry:(NSString*)key withData:(NSString*) value){
     
     if (osStatus != noErr && osStatus != errSecItemNotFound) {
         NSError *error = [NSError errorWithDomain:NSOSStatusErrorDomain code:osStatus userInfo:nil];
-        NSLog(@"Error - could not save data to secure storeage: %@", error);
+        NSLog(@"Error - could not save data to safe storeage: %@", error);
     }
 }
 
@@ -41,7 +41,7 @@ RCT_EXPORT_METHOD(getEntry:(NSString*)key defaultValue:(NSString*) defaultValue 
     
     if (osStatus != noErr && osStatus != errSecItemNotFound) {
         NSError *error = [NSError errorWithDomain:NSOSStatusErrorDomain code:osStatus userInfo:nil];
-        NSLog(@"Error - could not get data from secure storeage: %@", error);
+        NSLog(@"Error - could not get data from safe storeage: %@", error);
         return callback(@[defaultValue]);
     }
     

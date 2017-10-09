@@ -1,4 +1,4 @@
-package com.geniem.reactnativesecurestorage;
+package com.geniem.reactnativesafestorage;
 
 import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;
@@ -34,9 +34,9 @@ import java.util.Calendar;
 import java.util.Enumeration;
 import java.util.List;
 
-class SecureStorageModule extends ReactContextBaseJavaModule {
-    private static final String PREFS_NAME = "SecureStoragePreferences";
-    private static final String TAG = "SecureStorageModule";
+class SafeStorageModule extends ReactContextBaseJavaModule {
+    private static final String PREFS_NAME = "SafeStoragePreferences";
+    private static final String TAG = "SafeStorageModule";
     static final String CIPHER_TYPE = "RSA/ECB/PKCS1Padding";
     static final String CIPHER_PROVIDER = "AndroidOpenSSL";
     private final String KEYSTORE="AndroidKeyStore";
@@ -46,7 +46,7 @@ class SecureStorageModule extends ReactContextBaseJavaModule {
     private Context context;
     private KeyStore keystore;
 
-    public SecureStorageModule(ReactApplicationContext reactContext) {
+    public SafeStorageModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.context = reactContext;
     }
@@ -57,7 +57,7 @@ class SecureStorageModule extends ReactContextBaseJavaModule {
      */
     @Override
     public String getName() {
-        return "SecureStorage";
+        return "SafeStorage";
     }
 
     @Override

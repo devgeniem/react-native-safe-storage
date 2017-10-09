@@ -1,17 +1,19 @@
 import React from 'react-native';
 
-const SecureStorage = React.NativeModules.SecureStorage;
+const SafeStorage = React.NativeModules.SafeStorage;
+console.log("SafeStorage", SafeStorage);
 
 export default {
+  
 	setEntry: (key, value) => {
-		return SecureStorage.setEntry(key, value);
+		return SafeStorage.setEntry(key, value);
 	},
 	getEntry: (key, defaultValue, callback) => {
-		return SecureStorage.getEntry(key, defaultValue, callback);
+		return SafeStorage.getEntry(key, defaultValue, callback);
 	},
 
 	getEntryAsync: (key, defaultValue ) => new Promise((resolve, reject) => {
-		SecureStorage.getEntry(key, defaultValue, ( receivedValue ) => {
+		SafeStorage.getEntry(key, defaultValue, ( receivedValue ) => {
 			resolve(receivedValue);
 		});
 	})
